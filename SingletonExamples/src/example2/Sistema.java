@@ -1,7 +1,7 @@
 package example2;
 
 public class Sistema {
-	public static Sistema sistema=new Sistema();
+	private static Sistema sistema=new Sistema();
 	private String hora="00:00";
 	
 	private Sistema() {}
