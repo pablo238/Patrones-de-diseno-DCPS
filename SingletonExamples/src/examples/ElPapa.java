@@ -1,0 +1,26 @@
+package examples;
+
+public class ElPapa {
+	private String nombre;
+	private static ElPapa elPapa;
+	
+	private ElPapa(String nombre) {
+		this.nombre=nombre;
+	}
+	
+	public static ElPapa getInstance(String nombre) {
+		if (elPapa == null) {
+			elPapa=new ElPapa(nombre);
+		}
+		return elPapa;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	
+}
