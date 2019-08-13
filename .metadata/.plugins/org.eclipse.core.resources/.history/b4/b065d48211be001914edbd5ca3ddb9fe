@@ -1,0 +1,11 @@
+package example2;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Sistema objeto1= Sistema.getInstance();
+		Sistema objeto2= Sistema.getInstance();
+
+	}
+
+}

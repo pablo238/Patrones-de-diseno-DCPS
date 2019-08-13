@@ -1,0 +1,12 @@
+package example2;
+
+public class Sistema {
+
+	public static Sistema sistema=new Sistema();
+	private String descripcion;
+	private Sistema() {}
+	
+	public static Sistema getInstance() {
+		return sistema;
+	}
+}
